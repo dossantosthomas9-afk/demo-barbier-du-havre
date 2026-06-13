@@ -116,7 +116,7 @@ button { font: inherit; }
 .hero-media img {
   position: absolute;
   top: 50%;
-  right: clamp(18px, 5vw, 84px);
+  right: clamp(20px, 5vw, 84px);
   width: min(48vw, 680px);
   height: min(88%, 780px);
   object-fit: contain;
