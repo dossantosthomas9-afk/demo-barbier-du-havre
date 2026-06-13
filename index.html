@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="fr-CA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Maquette de démonstration du Salon de Barbier du Havre à Havre-Saint-Pierre.">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="theme-color" content="#0d0d0d">
+  <title>Salon de Barbier du Havre | Havre-Saint-Pierre</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="demo-ribbon">Maquette de démonstration non officielle</div>
+
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#accueil" aria-label="Retour à l'accueil">
+        <span class="barber-pole" aria-hidden="true"></span>
+        <span class="brand-copy">
+          <small>Salon de barbier</small>
+          <strong>Du Havre</strong>
+          <em>Havre-Saint-Pierre</em>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Ouvrir le menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="main-nav" id="main-nav" aria-label="Navigation principale">
+        <a href="#accueil">Accueil</a>
+        <a href="#services">Services</a>
+        <a href="#tarifs">Tarifs</a>
+        <a href="#galerie">Galerie</a>
+        <a href="#avis">Avis</a>
+        <a href="#apropos">À propos</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="accueil">
+      <div class="hero-media" aria-hidden="true">
+        <img src="assets/coupe-1.webp" alt="">
+      </div>
+      <div class="hero-shade"></div>
+      <div class="container hero-content reveal">
+        <p class="eyebrow">Style · confiance · local</p>
+        <h1>Votre barbier à<br><span>Havre-Saint-Pierre</span></h1>
+        <p class="hero-lead">Des coupes soignées, un service attentionné et une ambiance conviviale pour hommes, adolescents et enfants.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="tel:+14385207785" aria-label="Appeler le Salon de Barbier du Havre">
+            <span aria-hidden="true">☎</span> Appeler
+          </a>
+          <a class="btn btn-outline" href="#contact">
+            <span aria-hidden="true">✉</span> Prendre rendez-vous
+          </a>
+        </div>
+        <ul class="hero-points" aria-label="Points forts">
+          <li>Certificats cadeaux</li>
+          <li>Produits de qualité</li>
+          <li>Service personnalisé</li>
+        </ul>
+      </div>
+      <a class="scroll-cue" href="#services" aria-label="Découvrir les services"><span></span></a>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Nos services</p>
+          <h2>Pour tous les styles, à tout âge</h2>
+          <p>Des prestations simples, claires et réalisées avec soin.</p>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-card reveal">
+            <div class="service-icon" aria-hidden="true">✂</div>
+            <h3>Coupes hommes</h3>
+            <p>Classiques, modernes et adaptées à votre style.</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-icon" aria-hidden="true">◒</div>
+            <h3>Adolescents</h3>
+            <p>Des coupes actuelles, propres et faciles à entretenir.</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-icon" aria-hidden="true">★</div>
+            <h3>Enfants</h3>
+            <p>Une expérience rassurante et agréable pour les plus jeunes.</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-icon" aria-hidden="true">♛</div>
+            <h3>Taille de barbe</h3>
+            <p>Entretien, dégradé ou finition traditionnelle à l’ancienne.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split-section" id="tarifs">
+      <div class="container split-grid">
+        <div class="price-panel reveal">
+          <p class="eyebrow">Tarifs</p>
+          <h2>Menu de prix</h2>
+          <div class="price-list" role="list">
+            <div class="price-row" role="listitem"><span>Coupe homme</span><strong>30&nbsp;$</strong></div>
+            <div class="price-row" role="listitem"><span>Coupe enfant / ado</span><strong>25&nbsp;$</strong></div>
+            <div class="price-row" role="listitem"><span>Taille de barbe — 1 niveau</span><strong>10&nbsp;$</strong></div>
+            <div class="price-row" role="listitem"><span>Taille de barbe dégradée</span><strong>15&nbsp;$</strong></div>
+            <div class="price-row price-row-tall" role="listitem">
+              <span>Barbe à l’ancienne <small>avec lame et serviette chaude</small></span>
+              <strong>25&nbsp;$</strong>
+            </div>
+          </div>
+          <p class="fine-print">Tarifs affichés à titre informatif et à confirmer avec le salon.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section gallery" id="galerie">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Galerie</p>
+          <h2>Quelques réalisations</h2>
+          <p>Cliquez sur une photo pour l’agrandir.</p>
+        </div>
+
+        <div class="gallery-grid">
+          <button class="gallery-card reveal" type="button" data-lightbox="assets/coupe-1.webp" aria-label="Agrandir la première réalisation">
+            <img src="assets/coupe-1.webp" alt="Coupe courte dégradée réalisée au salon" loading="lazy">
+            <span>Dégradé net et finition précise</span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-lightbox="assets/coupe-2.webp" aria-label="Agrandir la deuxième réalisation">
+            <img src="assets/coupe-2.webp" alt="Coupe texturée et dégradée réalisée au salon" loading="lazy">
+            <span>Texture moderne et contours soignés</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reviews" id="avis">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Avis clients</p>
+          <h2>La confiance se construit coupe après coupe</h2>
+          <p>Cette section est prête à accueillir les véritables avis Facebook du salon.</p>
+        </div>
+
+        <div class="review-grid">
+          <article class="review-card reveal">
+            <div class="stars" aria-label="5 étoiles">★★★★★</div>
+            <p>« Un avis vérifié sur la qualité des coupes pourra être affiché ici. »</p>
+            <span>Avis Facebook à intégrer</span>
+          </article>
+          <article class="review-card reveal">
+            <div class="stars" aria-label="5 étoiles">★★★★★</div>
+            <p>« Un avis vérifié sur l’accueil et l’ambiance du salon pourra apparaître ici. »</p>
+            <span>Avis Facebook à intégrer</span>
+          </article>
+          <article class="review-card reveal">
+            <div class="stars" aria-label="5 étoiles">★★★★★</div>
+            <p>« Un avis vérifié sur le service offert aux enfants pourra être ajouté ici. »</p>
+            <span>Avis Facebook à intégrer</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="apropos">
+      <div class="container about-grid">
+        <div class="about-copy reveal">
+          <p class="eyebrow">À propos</p>
+          <h2>Julie Corbeil vous accueille au salon</h2>
+          <p>Julie reçoit chaque client dans une atmosphère simple et chaleureuse, avec une attention particulière portée à la coupe, aux contours et à l’entretien de la barbe.</p>
+          <p>Que vous recherchiez un style classique ou plus moderne, l’objectif reste le même&nbsp;: vous proposer un résultat propre, confortable et adapté à vos préférences.</p>
+          <div class="about-values">
+            <span>Précision</span><span>Écoute</span><span>Convivialité</span>
+          </div>
+        </div>
+
+        <div class="portrait-shell reveal">
+          <div class="portrait-glow"></div>
+          <img src="assets/julie-corbeil.webp" alt="Julie Corbeil, coiffeuse du Salon de Barbier du Havre" loading="lazy">
+          <div class="portrait-caption">
+            <strong>Julie Corbeil</strong>
+            <span>Coiffeuse · Salon de Barbier du Havre</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-copy reveal">
+          <p class="eyebrow">Contact</p>
+          <h2>Prenez rendez-vous facilement</h2>
+          <p>Appelez le salon ou écrivez via Facebook Messenger pour vérifier les disponibilités.</p>
+
+          <div class="contact-cards">
+            <a class="contact-card" href="tel:+14385207785">
+              <span class="contact-symbol" aria-hidden="true">☎</span>
+              <span><small>Téléphone</small><strong>(438) 520-7785</strong></span>
+            </a>
+            <a class="contact-card" href="https://www.google.com/maps/search/?api=1&query=1651%201re%20Rue%2C%20Havre-Saint-Pierre%2C%20QC%20G0G%201P0" target="_blank" rel="noopener noreferrer">
+              <span class="contact-symbol" aria-hidden="true">⌖</span>
+              <span><small>Adresse</small><strong>1651, 1re Rue<br>Havre-Saint-Pierre, QC G0G 1P0</strong></span>
+            </a>
+          </div>
+
+          <div class="contact-actions">
+            <a class="btn btn-primary" href="tel:+14385207785">Appeler maintenant</a>
+            <button class="btn btn-outline" type="button" id="messengerButton">Écrire sur Messenger</button>
+          </div>
+        </div>
+
+        <div class="map-card reveal" aria-label="Emplacement approximatif du salon">
+          <div class="map-lines" aria-hidden="true"></div>
+          <div class="water" aria-hidden="true"></div>
+          <div class="map-marker" aria-hidden="true"><span></span></div>
+          <div class="map-label">
+            <strong>Salon de Barbier du Havre</strong>
+            <span>1651, 1re Rue</span>
+          </div>
+          <a href="https://www.google.com/maps/search/?api=1&query=1651%201re%20Rue%2C%20Havre-Saint-Pierre%2C%20QC%20G0G%201P0" target="_blank" rel="noopener noreferrer">Ouvrir dans Google Maps →</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <a class="brand footer-brand" href="#top">
+        <span class="barber-pole" aria-hidden="true"></span>
+        <span class="brand-copy"><small>Salon de barbier</small><strong>Du Havre</strong><em>Havre-Saint-Pierre</em></span>
+      </a>
+      <div class="footer-meta">
+        <span>1651, 1re Rue, Havre-Saint-Pierre</span>
+        <a href="tel:+14385207785">(438) 520-7785</a>
+      </div>
+      <p>Maquette de démonstration non officielle.<br>Contenus à valider avant publication.</p>
+    </div>
+  </footer>
+
+  <dialog class="lightbox" id="lightbox">
+    <button type="button" class="lightbox-close" aria-label="Fermer">×</button>
+    <img src="" alt="Réalisation agrandie">
+  </dialog>
+
+  <dialog class="message-dialog" id="messageDialog">
+    <button type="button" class="dialog-close" aria-label="Fermer">×</button>
+    <p class="eyebrow">Lien Messenger</p>
+    <h2>À connecter à la page Facebook</h2>
+    <p>Le bouton est prêt. Il suffira de remplacer l’adresse Messenger dans le fichier <code>script.js</code> par le lien officiel de la page du salon.</p>
+    <button type="button" class="btn btn-primary" id="dialogOk">Compris</button>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
